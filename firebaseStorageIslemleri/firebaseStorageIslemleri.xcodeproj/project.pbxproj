@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2870B163CB3F65BE7C5742A1 /* Pods_firebaseStorageIslemleriTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E71935B1F0AE0BBF0694670 /* Pods_firebaseStorageIslemleriTests.framework */; };
+		4225EE485A485761409C5D00 /* Pods_firebaseStorageIslemleri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78B0D0667FAD4D2B2160742 /* Pods_firebaseStorageIslemleri.framework */; };
+		B2B130609FE843400F8E8CC4 /* Pods_firebaseStorageIslemleriUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113FD265C120D52E0B8069C5 /* Pods_firebaseStorageIslemleriUITests.framework */; };
+		F112D12F1FCAD65500D3113E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112D12E1FCAD65500D3113E /* AppDelegate.swift */; };
+		F112D1311FCAD65500D3113E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112D1301FCAD65500D3113E /* FirstViewController.swift */; };
+		F112D1331FCAD65500D3113E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112D1321FCAD65500D3113E /* SecondViewController.swift */; };
+		F112D1361FCAD65500D3113E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F112D1341FCAD65500D3113E /* Main.storyboard */; };
+		F112D1381FCAD65500D3113E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F112D1371FCAD65500D3113E /* Assets.xcassets */; };
+		F112D13B1FCAD65500D3113E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F112D1391FCAD65500D3113E /* LaunchScreen.storyboard */; };
+		F112D1461FCAD65500D3113E /* firebaseStorageIslemleriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112D1451FCAD65500D3113E /* firebaseStorageIslemleriTests.swift */; };
+		F112D1511FCAD65500D3113E /* firebaseStorageIslemleriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112D1501FCAD65500D3113E /* firebaseStorageIslemleriUITests.swift */; };
+		F112D1631FCAD73400D3113E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F112D1621FCAD73300D3113E /* GoogleService-Info.plist */; };
+		F112D1651FCADACA00D3113E /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112D1641FCADACA00D3113E /* feedCell.swift */; };
+		F1715D851FCB08C200BC3779 /* GirisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1715D841FCB08C200BC3779 /* GirisVC.swift */; };
+		F1715D871FCB08FA00BC3779 /* resimyukle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1715D861FCB08FA00BC3779 /* resimyukle.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F112D1421FCAD65500D3113E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F112D1231FCAD65400D3113E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F112D12A1FCAD65500D3113E;
+			remoteInfo = firebaseStorageIslemleri;
+		};
+		F112D14D1FCAD65500D3113E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F112D1231FCAD65400D3113E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F112D12A1FCAD65500D3113E;
+			remoteInfo = firebaseStorageIslemleri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113FD265C120D52E0B8069C5 /* Pods_firebaseStorageIslemleriUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseStorageIslemleriUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3270AEDDFCB2FB9CB15922AD /* Pods-firebaseStorageIslemleriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseStorageIslemleriUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseStorageIslemleriUITests/Pods-firebaseStorageIslemleriUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D52547BC0DC163B1CEB312D /* Pods-firebaseStorageIslemleri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseStorageIslemleri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseStorageIslemleri/Pods-firebaseStorageIslemleri.debug.xcconfig"; sourceTree = "<group>"; };
+		7A75F5CEBAA96726ADE5794F /* Pods-firebaseStorageIslemleri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseStorageIslemleri.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseStorageIslemleri/Pods-firebaseStorageIslemleri.release.xcconfig"; sourceTree = "<group>"; };
+		8E71935B1F0AE0BBF0694670 /* Pods_firebaseStorageIslemleriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseStorageIslemleriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93874255DCFD6868B8812C22 /* Pods-firebaseStorageIslemleriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseStorageIslemleriTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseStorageIslemleriTests/Pods-firebaseStorageIslemleriTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D52FA46D89FC86126563A6 /* Pods-firebaseStorageIslemleriUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseStorageIslemleriUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseStorageIslemleriUITests/Pods-firebaseStorageIslemleriUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E78B0D0667FAD4D2B2160742 /* Pods_firebaseStorageIslemleri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseStorageIslemleri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F112D12B1FCAD65500D3113E /* firebaseStorageIslemleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseStorageIslemleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F112D12E1FCAD65500D3113E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F112D1301FCAD65500D3113E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F112D1321FCAD65500D3113E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F112D1351FCAD65500D3113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F112D1371FCAD65500D3113E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F112D13A1FCAD65500D3113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F112D13C1FCAD65500D3113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F112D1411FCAD65500D3113E /* firebaseStorageIslemleriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebaseStorageIslemleriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F112D1451FCAD65500D3113E /* firebaseStorageIslemleriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseStorageIslemleriTests.swift; sourceTree = "<group>"; };
+		F112D1471FCAD65500D3113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F112D14C1FCAD65500D3113E /* firebaseStorageIslemleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebaseStorageIslemleriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F112D1501FCAD65500D3113E /* firebaseStorageIslemleriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseStorageIslemleriUITests.swift; sourceTree = "<group>"; };
+		F112D1521FCAD65500D3113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F112D1621FCAD73300D3113E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F112D1641FCADACA00D3113E /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		F1715D841FCB08C200BC3779 /* GirisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisVC.swift; sourceTree = "<group>"; };
+		F1715D861FCB08FA00BC3779 /* resimyukle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resimyukle.jpg; sourceTree = "<group>"; };
+		F2171D408587CCB723952341 /* Pods-firebaseStorageIslemleriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseStorageIslemleriTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseStorageIslemleriTests/Pods-firebaseStorageIslemleriTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F112D1281FCAD65500D3113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4225EE485A485761409C5D00 /* Pods_firebaseStorageIslemleri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112D13E1FCAD65500D3113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2870B163CB3F65BE7C5742A1 /* Pods_firebaseStorageIslemleriTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112D1491FCAD65500D3113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B130609FE843400F8E8CC4 /* Pods_firebaseStorageIslemleriUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70FB06FFEF0411AF4199C481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E78B0D0667FAD4D2B2160742 /* Pods_firebaseStorageIslemleri.framework */,
+				8E71935B1F0AE0BBF0694670 /* Pods_firebaseStorageIslemleriTests.framework */,
+				113FD265C120D52E0B8069C5 /* Pods_firebaseStorageIslemleriUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC8A7221EAF167FBD07E660 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D52547BC0DC163B1CEB312D /* Pods-firebaseStorageIslemleri.debug.xcconfig */,
+				7A75F5CEBAA96726ADE5794F /* Pods-firebaseStorageIslemleri.release.xcconfig */,
+				93874255DCFD6868B8812C22 /* Pods-firebaseStorageIslemleriTests.debug.xcconfig */,
+				F2171D408587CCB723952341 /* Pods-firebaseStorageIslemleriTests.release.xcconfig */,
+				3270AEDDFCB2FB9CB15922AD /* Pods-firebaseStorageIslemleriUITests.debug.xcconfig */,
+				B4D52FA46D89FC86126563A6 /* Pods-firebaseStorageIslemleriUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F112D1221FCAD65400D3113E = {
+			isa = PBXGroup;
+			children = (
+				F112D12D1FCAD65500D3113E /* firebaseStorageIslemleri */,
+				F112D1441FCAD65500D3113E /* firebaseStorageIslemleriTests */,
+				F112D14F1FCAD65500D3113E /* firebaseStorageIslemleriUITests */,
+				F112D12C1FCAD65500D3113E /* Products */,
+				8AC8A7221EAF167FBD07E660 /* Pods */,
+				70FB06FFEF0411AF4199C481 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F112D12C1FCAD65500D3113E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F112D12B1FCAD65500D3113E /* firebaseStorageIslemleri.app */,
+				F112D1411FCAD65500D3113E /* firebaseStorageIslemleriTests.xctest */,
+				F112D14C1FCAD65500D3113E /* firebaseStorageIslemleriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F112D12D1FCAD65500D3113E /* firebaseStorageIslemleri */ = {
+			isa = PBXGroup;
+			children = (
+				F1715D861FCB08FA00BC3779 /* resimyukle.jpg */,
+				F112D12E1FCAD65500D3113E /* AppDelegate.swift */,
+				F112D1621FCAD73300D3113E /* GoogleService-Info.plist */,
+				F112D1301FCAD65500D3113E /* FirstViewController.swift */,
+				F112D1321FCAD65500D3113E /* SecondViewController.swift */,
+				F112D1341FCAD65500D3113E /* Main.storyboard */,
+				F1715D841FCB08C200BC3779 /* GirisVC.swift */,
+				F112D1641FCADACA00D3113E /* feedCell.swift */,
+				F112D1371FCAD65500D3113E /* Assets.xcassets */,
+				F112D1391FCAD65500D3113E /* LaunchScreen.storyboard */,
+				F112D13C1FCAD65500D3113E /* Info.plist */,
+			);
+			path = firebaseStorageIslemleri;
+			sourceTree = "<group>";
+		};
+		F112D1441FCAD65500D3113E /* firebaseStorageIslemleriTests */ = {
+			isa = PBXGroup;
+			children = (
+				F112D1451FCAD65500D3113E /* firebaseStorageIslemleriTests.swift */,
+				F112D1471FCAD65500D3113E /* Info.plist */,
+			);
+			path = firebaseStorageIslemleriTests;
+			sourceTree = "<group>";
+		};
+		F112D14F1FCAD65500D3113E /* firebaseStorageIslemleriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F112D1501FCAD65500D3113E /* firebaseStorageIslemleriUITests.swift */,
+				F112D1521FCAD65500D3113E /* Info.plist */,
+			);
+			path = firebaseStorageIslemleriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F112D12A1FCAD65500D3113E /* firebaseStorageIslemleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F112D1551FCAD65500D3113E /* Build configuration list for PBXNativeTarget "firebaseStorageIslemleri" */;
+			buildPhases = (
+				FD42F8A82780FA01B0E41027 /* [CP] Check Pods Manifest.lock */,
+				F112D1271FCAD65500D3113E /* Sources */,
+				F112D1281FCAD65500D3113E /* Frameworks */,
+				F112D1291FCAD65500D3113E /* Resources */,
+				715D588DF1054A0DBA3E9EEE /* [CP] Embed Pods Frameworks */,
+				1353F18570AE3530962915D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firebaseStorageIslemleri;
+			productName = firebaseStorageIslemleri;
+			productReference = F112D12B1FCAD65500D3113E /* firebaseStorageIslemleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F112D1401FCAD65500D3113E /* firebaseStorageIslemleriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F112D1581FCAD65500D3113E /* Build configuration list for PBXNativeTarget "firebaseStorageIslemleriTests" */;
+			buildPhases = (
+				9DE931FE924BB514AE529874 /* [CP] Check Pods Manifest.lock */,
+				F112D13D1FCAD65500D3113E /* Sources */,
+				F112D13E1FCAD65500D3113E /* Frameworks */,
+				F112D13F1FCAD65500D3113E /* Resources */,
+				22E95FF26A3FDA1AB9D4F5D8 /* [CP] Embed Pods Frameworks */,
+				3585E2EDE26B11308EDA88C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F112D1431FCAD65500D3113E /* PBXTargetDependency */,
+			);
+			name = firebaseStorageIslemleriTests;
+			productName = firebaseStorageIslemleriTests;
+			productReference = F112D1411FCAD65500D3113E /* firebaseStorageIslemleriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F112D14B1FCAD65500D3113E /* firebaseStorageIslemleriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F112D15B1FCAD65500D3113E /* Build configuration list for PBXNativeTarget "firebaseStorageIslemleriUITests" */;
+			buildPhases = (
+				5D0BF2F4EBA6A0EDD04DA6B6 /* [CP] Check Pods Manifest.lock */,
+				F112D1481FCAD65500D3113E /* Sources */,
+				F112D1491FCAD65500D3113E /* Frameworks */,
+				F112D14A1FCAD65500D3113E /* Resources */,
+				86F763F28489E16706082D0E /* [CP] Embed Pods Frameworks */,
+				118EEDB19F46FD3C91EC0EF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F112D14E1FCAD65500D3113E /* PBXTargetDependency */,
+			);
+			name = firebaseStorageIslemleriUITests;
+			productName = firebaseStorageIslemleriUITests;
+			productReference = F112D14C1FCAD65500D3113E /* firebaseStorageIslemleriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F112D1231FCAD65400D3113E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Esat Gözcü";
+				TargetAttributes = {
+					F112D12A1FCAD65500D3113E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F112D1401FCAD65500D3113E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F112D12A1FCAD65500D3113E;
+					};
+					F112D14B1FCAD65500D3113E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F112D12A1FCAD65500D3113E;
+					};
+				};
+			};
+			buildConfigurationList = F112D1261FCAD65400D3113E /* Build configuration list for PBXProject "firebaseStorageIslemleri" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F112D1221FCAD65400D3113E;
+			productRefGroup = F112D12C1FCAD65500D3113E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F112D12A1FCAD65500D3113E /* firebaseStorageIslemleri */,
+				F112D1401FCAD65500D3113E /* firebaseStorageIslemleriTests */,
+				F112D14B1FCAD65500D3113E /* firebaseStorageIslemleriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F112D1291FCAD65500D3113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F112D13B1FCAD65500D3113E /* LaunchScreen.storyboard in Resources */,
+				F112D1631FCAD73400D3113E /* GoogleService-Info.plist in Resources */,
+				F112D1381FCAD65500D3113E /* Assets.xcassets in Resources */,
+				F112D1361FCAD65500D3113E /* Main.storyboard in Resources */,
+				F1715D871FCB08FA00BC3779 /* resimyukle.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112D13F1FCAD65500D3113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112D14A1FCAD65500D3113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		118EEDB19F46FD3C91EC0EF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleriUITests/Pods-firebaseStorageIslemleriUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1353F18570AE3530962915D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleri/Pods-firebaseStorageIslemleri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E95FF26A3FDA1AB9D4F5D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleriTests/Pods-firebaseStorageIslemleriTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3585E2EDE26B11308EDA88C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleriTests/Pods-firebaseStorageIslemleriTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D0BF2F4EBA6A0EDD04DA6B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseStorageIslemleriUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		715D588DF1054A0DBA3E9EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleri/Pods-firebaseStorageIslemleri-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleri/Pods-firebaseStorageIslemleri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F763F28489E16706082D0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseStorageIslemleriUITests/Pods-firebaseStorageIslemleriUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE931FE924BB514AE529874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseStorageIslemleriTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD42F8A82780FA01B0E41027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseStorageIslemleri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F112D1271FCAD65500D3113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F112D1331FCAD65500D3113E /* SecondViewController.swift in Sources */,
+				F1715D851FCB08C200BC3779 /* GirisVC.swift in Sources */,
+				F112D1651FCADACA00D3113E /* feedCell.swift in Sources */,
+				F112D12F1FCAD65500D3113E /* AppDelegate.swift in Sources */,
+				F112D1311FCAD65500D3113E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112D13D1FCAD65500D3113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F112D1461FCAD65500D3113E /* firebaseStorageIslemleriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112D1481FCAD65500D3113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F112D1511FCAD65500D3113E /* firebaseStorageIslemleriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F112D1431FCAD65500D3113E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F112D12A1FCAD65500D3113E /* firebaseStorageIslemleri */;
+			targetProxy = F112D1421FCAD65500D3113E /* PBXContainerItemProxy */;
+		};
+		F112D14E1FCAD65500D3113E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F112D12A1FCAD65500D3113E /* firebaseStorageIslemleri */;
+			targetProxy = F112D14D1FCAD65500D3113E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F112D1341FCAD65500D3113E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F112D1351FCAD65500D3113E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F112D1391FCAD65500D3113E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F112D13A1FCAD65500D3113E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F112D1531FCAD65500D3113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F112D1541FCAD65500D3113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F112D1561FCAD65500D3113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D52547BC0DC163B1CEB312D /* Pods-firebaseStorageIslemleri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebaseStorageIslemleri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.firebaseStorageIslemleri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F112D1571FCAD65500D3113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A75F5CEBAA96726ADE5794F /* Pods-firebaseStorageIslemleri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebaseStorageIslemleri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.firebaseStorageIslemleri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F112D1591FCAD65500D3113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93874255DCFD6868B8812C22 /* Pods-firebaseStorageIslemleriTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebaseStorageIslemleriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.firebaseStorageIslemleriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebaseStorageIslemleri.app/firebaseStorageIslemleri";
+			};
+			name = Debug;
+		};
+		F112D15A1FCAD65500D3113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2171D408587CCB723952341 /* Pods-firebaseStorageIslemleriTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebaseStorageIslemleriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.firebaseStorageIslemleriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebaseStorageIslemleri.app/firebaseStorageIslemleri";
+			};
+			name = Release;
+		};
+		F112D15C1FCAD65500D3113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3270AEDDFCB2FB9CB15922AD /* Pods-firebaseStorageIslemleriUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebaseStorageIslemleriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.firebaseStorageIslemleriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firebaseStorageIslemleri;
+			};
+			name = Debug;
+		};
+		F112D15D1FCAD65500D3113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D52FA46D89FC86126563A6 /* Pods-firebaseStorageIslemleriUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebaseStorageIslemleriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.firebaseStorageIslemleriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firebaseStorageIslemleri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F112D1261FCAD65400D3113E /* Build configuration list for PBXProject "firebaseStorageIslemleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F112D1531FCAD65500D3113E /* Debug */,
+				F112D1541FCAD65500D3113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F112D1551FCAD65500D3113E /* Build configuration list for PBXNativeTarget "firebaseStorageIslemleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F112D1561FCAD65500D3113E /* Debug */,
+				F112D1571FCAD65500D3113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F112D1581FCAD65500D3113E /* Build configuration list for PBXNativeTarget "firebaseStorageIslemleriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F112D1591FCAD65500D3113E /* Debug */,
+				F112D15A1FCAD65500D3113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F112D15B1FCAD65500D3113E /* Build configuration list for PBXNativeTarget "firebaseStorageIslemleriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F112D15C1FCAD65500D3113E /* Debug */,
+				F112D15D1FCAD65500D3113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F112D1231FCAD65400D3113E /* Project object */;
+}
